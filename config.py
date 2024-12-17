@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6956188264:AAH3KtuqJKR9v7jb7TZsWwqxAjpmCzbDN-I")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7610885030:AAFOxh3Ta76K_37hQb98xTMiYmnCGg5BdA8")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "28196711"))
 API_HASH = os.environ.get("API_HASH", "a8a23bffb12aae7a4c72fa2b4cd538a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001936994706"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002248155982"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6655939309"))
@@ -30,14 +30,14 @@ DB_NAME = os.environ.get("DATABASE_NAME", "ultroidxTeam")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vnshortener.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "4937a74e7ed039125976e923b3561f98648dcc54")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "runurl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "36ed6009ba9d0ed675f6a66d148c63dd98844231")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/indian_link_world") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/postingstuffs") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002204573607"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", NONE))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -63,7 +63,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot @indian_link_world check this "
+USER_REPLY_TEXT = "Join Posting Channel From  @postingstuffs For More Links/Files "
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6695586027)
