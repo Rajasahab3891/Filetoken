@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "28196711"))
 API_HASH = os.environ.get("API_HASH", "a8a23bffb12aae7a4c72fa2b4cd538a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002248155982"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002161897374"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6655939309"))
@@ -34,10 +34,10 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "runurl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "36ed6009ba9d0ed675f6a66d148c63dd98844231")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/indian_link_world") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/postingstuffs") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "none"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002487031832"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
