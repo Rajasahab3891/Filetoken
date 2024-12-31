@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6861472882:AAEvC12qu_7gy6fI55hVDmsU-e_Xb283X-I")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6956188264:AAG3clvfBcPYwxrA1xxzd_nRXfEPOeo8O8U")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
@@ -13,13 +13,13 @@ APP_ID = int(os.environ.get("APP_ID", "28196711"))
 API_HASH = os.environ.get("API_HASH", "a8a23bffb12aae7a4c72fa2b4cd538a1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002125284798"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002062956236"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6655939309"))
 
 #Port
-PORT = os.environ.get("PORT", "8090")
+PORT = os.environ.get("PORT", "8484")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
@@ -37,7 +37,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/postingstuffs") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002487031832"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002110064878"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
